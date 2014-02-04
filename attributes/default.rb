@@ -1,3 +1,4 @@
+default[:mpd][:instance_name] = 'mpd'
 default[:mpd][:music_directory] = "/media/storage/music"
 default[:mpd][:user] = "mpd"
 default[:mpd][:bind] = ipaddress
